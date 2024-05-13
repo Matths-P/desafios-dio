@@ -19,6 +19,6 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 
 | ENTRADA | SAÍDA |
 |----------|----------|
-| 17 | oce nao esta elegivel para criar uma conta bancaria. |
+| 17 | Voce nao esta elegivel para criar uma conta bancaria. |
 | 26 | Voce esta elegivel para criar uma conta bancaria. |
 | 18 | Voce esta elegivel para criar uma conta bancaria. |
