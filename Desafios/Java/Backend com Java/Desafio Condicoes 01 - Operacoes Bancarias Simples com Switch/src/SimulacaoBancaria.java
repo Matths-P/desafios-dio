@@ -12,6 +12,11 @@ public class SimulacaoBancaria {
 			int opcao = scanner.nextInt();
 
 			switch (opcao) {
+			case 0:
+				continuar = !true;
+				System.out.println("Programa encerrado.");
+				break;
+				
 			case 1:
 				double novoSaldo = scanner.nextDouble();
 				saldo = saldo + novoSaldo;
@@ -30,11 +35,6 @@ public class SimulacaoBancaria {
 
 			case 3:
 				System.out.println("Saldo atual: " + String.format("%.1f", saldo));
-				break;
-
-			case 0:
-				continuar = !true;
-				System.out.println("Programa encerrado.");
 				break;
 
 			default:
